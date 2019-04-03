@@ -6,6 +6,7 @@ My first project
 
 ### Description
 This is my first project of Git.
+This is second time to change this file.
 
 ### Files used
 README.md
