@@ -170,10 +170,10 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    user_stats = input('\nWould you like to see 5 line of raw data?\nPlease enter yes or no\n').lower()
+    user_stats = input('\nDo you want to see 5 line of raw data?\nPlease enter yes or no\n').lower()
 　　　　　　if user_stats in ('yes', 'y'):
     　　　　　　　print(df.iloc[0:5])
-        　　　　　user_stats = input('Would you like to see 5 line of raw data again? Please enter yes or no: ').lower()
+        　　　　　user_stats = input('Do you want to see 5 line of raw data again? Please enter yes or no: ').lower()
         　　　　　if user_stats not in ('yes', 'y'):
             　　　break
 
@@ -187,7 +187,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nDo you want to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
