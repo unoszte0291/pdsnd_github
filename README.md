@@ -1,16 +1,11 @@
 ### Date created
-03/04/2019
+05/04/2019
 
 ### Project Title
-My first project
-
+refactoring code
 ### Description
-This is my first project of Git.
-This is second time to change this file.
-
+This is refactoring code.
 ### Files used
-README.md
-my_project.py
-
+refactoring
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
